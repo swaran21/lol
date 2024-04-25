@@ -1,0 +1,15 @@
+#about {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+}
+
+#about h2 {
+    color: #ffcc00;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#about p {
+    margin-bottom: 20px;
+}

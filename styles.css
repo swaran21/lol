@@ -1,0 +1,187 @@
+body {
+    background-color: #222222;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 10%;
+}
+
+#search {
+    width: 40%;
+}
+
+#menu {
+    width: 60%;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu a {
+    color: green;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#main-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+#pic-block {
+    width: 50%;
+}
+
+#text-block {
+    width: 50%;
+    padding: 20px;
+}
+
+#info-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    height: 250px;
+    background-color: rgb(7, 168, 7);
+}
+
+#address, #email, #contact, #about {
+    width: 25%;
+    padding: 20px;
+    background-color: rgb(13, 204, 238);
+    color: darkred;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.image{
+    width: 700px;
+    height: 400px;
+}
+
+
+#problem-box, #phone-box {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#problem-box h2, #phone-box h2 {
+    color: #ffcc00;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#problem-box form, #phone-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+#problem-box label, #phone-box label {
+    margin-bottom: 10px;
+}
+
+#problem-box textarea, #phone-box input[type="tel"] {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+#problem-box input[type="submit"], #phone-box input[type="submit"] {
+    background-color: #ffcc00;
+    color: #333333;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.name{
+    font-size: 20px;
+    color: green;
+    padding-right: 300px;
+}
+
+.login{
+    width: 100px;
+    height: 40px;
+    background-color: yellow;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+}
+
+
+#login-box {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    margin: 0 auto;
+    width: 320px;
+    margin-top: 100px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    
+}
+
+#login-box h2 {
+    color: #ffcc00;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#login-box label {
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+#login-box input[type="text"], #login-box input[type="email"], #login-box input[type="tel"], #login-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    margin-bottom: 20px;
+   
+}
+
+#login-box input[type="submit"] {
+    background-color: #ffcc00;
+    color: #333333;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
