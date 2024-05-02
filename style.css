@@ -87,30 +87,30 @@ footer {
 }
 
 
-#phone-box {
+#details-phn-add {
     background-color: #333333;
     color: #ffffff;
     padding: 20px;
     margin-bottom: 20px;
 }
 
-#phone-box h2 {
+#details-phn-add h2 {
     color: #ffcc00;
     font-size: 2em;
     margin-bottom: 20px;
 }
 
- #phone-box form {
+ #details-phn-add form {
     display: flex;
     flex-direction: column;
     border: none;
 }
 
-#phone-box label {
+#details-phn-add label {
     margin-bottom: 10px;
 }
 
-#phone-box input[type="tel"] {
+#details-phn-add input[type="tel"] {
     margin-bottom: 20px;
     padding: 10px;
     border: none;
@@ -118,7 +118,7 @@ footer {
     box-shadow: 0 0 5px #ccc;
 }
 
-#phone-box input[type="submit"] {
+#details-phn-add input[type="submit"] {
     background-color: #ffcc00;
     color: #333333;
     padding: 10px;
@@ -187,46 +187,97 @@ footer {
     width: 100%;
 }
 
-#waste-type-button {
-    background-color: #f1f1f1;
-    color: black;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
+#main-block {
     position: relative;
 }
 
-#waste-type-button:hover, #waste-type-button:focus {
-    background-color: #ddd;
+#problem-box {
+    position: relative;
+}
+
+#waste-type-button {
+    position: relative;
+    border: none;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    color: red;
+    background-color: rgb(5, 8, 216);
 }
 
 #waste-type-list {
-    display: none;
     position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    left: 100%;
-    top: 0;
+    top: 30%;
+    left: 10px;
+    width: 100%;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px;
+    list-style-type: none;
+    display: none;
 }
 
-#waste-type-list ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+#waste-type-button:hover + #waste-type-list,
+#waste-type-list:hover {
+    display: block;
 }
 
 #waste-type-list li {
-    padding: 10px 20px;
     cursor: pointer;
 }
 
 #waste-type-list li:hover {
-    background-color: #ddd;
+    background-color: #555555;
 }
 
-.hidden {
-    display: none;
+#submit-waste-type {
+    background-color: #ffcc00;
+    color: #333333;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+#main-block-product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.product-info{
+        flex: 0 0 30%; 
+        text-align: center;
+        border: 1px solid #0ea6ec;
+        padding: 10px;
+        margin-bottom: 20px;
+        background-color: #f9f9f913;
+        border-radius: 10px;
+}
+
+.product-image{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.product-name{
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.add-to-cart{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: yellow; 
+    height: 30px;
+    width: 100px;
 }
