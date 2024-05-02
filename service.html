@@ -18,6 +18,7 @@
             <ul>
                 <li><a href="project.html">Home</a></li>
                 <li><a href="service.html">Services</a></li>
+                <li><a href="products.html">Products</a></li>
                 <button class="login"><a href="login.html">Login</a></button>
             </ul>
         </div>
@@ -36,8 +37,10 @@
                     <li>More</li>
                 </ul>
             </div>
+            <button id="submit-waste-type">Submit</button>
         </div>
-        <div id="phone-box">
+        <div id="details-phn-add">
+            <div id="phone number">
             <h2>Phone Number</h2>
             <p>Please provide your phone number so we can contact you if necessary.</p>
             <form>
@@ -45,6 +48,23 @@
                 <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
                 <input type="submit" value="Submit">
             </form>
+            </div>
+            <div id="address">
+                <h3>Address</h3>
+                <form>
+                    <label for="address-line-1">Address Line 1:</label><br>
+                    <input type="text" id="address-line-1" name="address-line-1"><br>
+                    <label for="address-line-2">Address Line 2:</label><br>
+                    <input type="text" id="address-line-2" name="address-line-2"><br>
+                    <label for="city">City:</label><br>
+                    <input type="text" id="city" name="city"><br>
+                    <label for="state">State:</label><br>
+                    <input type="text" id="state" name="state"><br>
+                    <label for="zip">Zip Code:</label><br>
+                    <input type="text" id="zip" name="zip"><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
         </div>
         
         </div>
