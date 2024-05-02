@@ -87,30 +87,50 @@ footer {
 }
 
 
+<<<<<<< HEAD:style.css
 #details-phn-add {
+=======
+#phone-box {
+>>>>>>> 8d52e037dcff2321b543bf16b6bb79b7d9c71fe5:styles.css
     background-color: #333333;
     color: #ffffff;
     padding: 20px;
     margin-bottom: 20px;
 }
 
+<<<<<<< HEAD:style.css
 #details-phn-add h2 {
+=======
+#phone-box h2 {
+>>>>>>> 8d52e037dcff2321b543bf16b6bb79b7d9c71fe5:styles.css
     color: #ffcc00;
     font-size: 2em;
     margin-bottom: 20px;
 }
 
+<<<<<<< HEAD:style.css
  #details-phn-add form {
+=======
+ #phone-box form {
+>>>>>>> 8d52e037dcff2321b543bf16b6bb79b7d9c71fe5:styles.css
     display: flex;
     flex-direction: column;
     border: none;
 }
 
+<<<<<<< HEAD:style.css
 #details-phn-add label {
     margin-bottom: 10px;
 }
 
 #details-phn-add input[type="tel"] {
+=======
+#phone-box label {
+    margin-bottom: 10px;
+}
+
+#phone-box input[type="tel"] {
+>>>>>>> 8d52e037dcff2321b543bf16b6bb79b7d9c71fe5:styles.css
     margin-bottom: 20px;
     padding: 10px;
     border: none;
@@ -118,7 +138,11 @@ footer {
     box-shadow: 0 0 5px #ccc;
 }
 
+<<<<<<< HEAD:style.css
 #details-phn-add input[type="submit"] {
+=======
+#phone-box input[type="submit"] {
+>>>>>>> 8d52e037dcff2321b543bf16b6bb79b7d9c71fe5:styles.css
     background-color: #ffcc00;
     color: #333333;
     padding: 10px;
@@ -187,6 +211,7 @@ footer {
     width: 100%;
 }
 
+<<<<<<< HEAD:style.css
 #main-block {
     position: relative;
 }
@@ -223,10 +248,46 @@ footer {
 }
 
 #waste-type-list li {
+=======
+#waste-type-button {
+    background-color: #f1f1f1;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+}
+
+#waste-type-button:hover, #waste-type-button:focus {
+    background-color: #ddd;
+}
+
+#waste-type-list {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 100%;
+    top: 0;
+}
+
+#waste-type-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#waste-type-list li {
+    padding: 10px 20px;
+>>>>>>> 8d52e037dcff2321b543bf16b6bb79b7d9c71fe5:styles.css
     cursor: pointer;
 }
 
 #waste-type-list li:hover {
+<<<<<<< HEAD:style.css
     background-color: #555555;
 }
 
@@ -281,3 +342,11 @@ footer {
     height: 30px;
     width: 100px;
 }
+=======
+    background-color: #ddd;
+}
+
+.hidden {
+    display: none;
+}
+>>>>>>> 8d52e037dcff2321b543bf16b6bb79b7d9c71fe5:styles.css
