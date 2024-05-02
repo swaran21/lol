@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <header>
@@ -25,12 +25,17 @@
 
     <div id="main-block">
         <div id="problem-box">
-            <h2>State Your Problem</h2>
-            <form>
-                <label for="problem">Problem:</label><br>
-                <textarea id="problem" name="problem" rows="4" cols="50"></textarea><br>
-                <input type="submit" value="Submit">
-            </form>
+            <h2>Choose the type of waste:</h2>
+            <button id="waste-type-button">Select Waste Type</button>
+            <div id="waste-type-list" class="hidden">
+                <ul>
+                    <li>Plastic Waste</li>
+                    <li>Wooden Waste</li>
+                    <li>Flower Waste</li>
+                    <li>Food Waste</li>
+                    <li>More</li>
+                </ul>
+            </div>
         </div>
         <div id="phone-box">
             <h2>Phone Number</h2>
