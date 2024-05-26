@@ -79,6 +79,10 @@ header {
 }
 
 footer {
+
+    .main2{
+        
+    }
     background-color: #000000;
     color: #ffffff;
     padding: 10px;
@@ -211,47 +215,6 @@ footer {
     position: relative;
 }
 
-#waste-type-button {
-    position: relative;
-    border: none;
-    width: 100%;
-    height: 30px;
-    border-radius: 5px;
-    color: red;
-    background-color: rgb(5, 8, 216);
-}
-
-#waste-type-list {
-    position: absolute;
-    top: 30%;
-    left: 10px;
-    width: 100%;
-    background-color: #333333;
-    color: #ffffff;
-    padding: 10px;
-    list-style-type: none;
-    display: none;
-}
-
-#waste-type-button:hover + #waste-type-list,
-#waste-type-list:hover {
-    display: block;
-}
-
-#waste-type-list li  {
-    background-color: #f1f1f1;
-    color: black;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    position: relative;
-}
-
-#waste-type-button:hover, #waste-type-button:focus {
-    background-color: #ddd;
-}
-
 #waste-type-list {
     display: none;
     position: absolute;
@@ -263,30 +226,15 @@ footer {
     top: 0;
 }
 
-#waste-type-list ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
 #waste-type-list li {
     padding: 10px 20px;
     cursor: pointer;
+    background-color: #333333;
+    color: #ffffff;
 }
 
 #waste-type-list li:hover {
     background-color: #555555;
-}
-
-#submit-waste-type {
-    background-color: #ffcc00;
-    color: #333333;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 100%;
-    margin-top: 50px;
 }
 
 
@@ -333,4 +281,59 @@ footer {
 
 .hidden {
     display: none;
+}
+
+.main2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#address {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#address h3 {
+    color: #ffcc00;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#address form {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+#address label {
+    margin-bottom: 10px;
+}
+
+#address input[type="text"] {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+#address input[type="submit"] {
+    background-color: #ffcc00;
+    color: #333333;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#problem-box{
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
 }
