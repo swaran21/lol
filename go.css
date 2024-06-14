@@ -1,0 +1,67 @@
+.main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #faea07;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .details, .steps, .track, .contact {
+    margin-bottom: 20px;
+  }
+  
+  .details p, .steps p, .track p, .contact p {
+    margin-bottom: 10px;
+    color: green;
+  }
+  
+  .details strong, .steps strong, .track strong, .contact strong {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .steps ol {
+    padding: 0 20px;
+  }
+  
+  .steps li {
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .contact a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .contact a:hover {
+    color: #23527c;
+  }
