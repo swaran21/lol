@@ -1,0 +1,59 @@
+.name{
+    font-size: 20px;
+    color: green;
+    padding-right: 300px;
+}
+
+.login{
+    width: 100px;
+    height: 40px;
+    background-color: yellow;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+}
+
+
+#login-box {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    margin: 0 auto;
+    width: 320px;
+    margin-top: 100px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    
+}
+
+#login-box h2 {
+    color: #ffcc00;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#login-box label {
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+#login-box input[type="email"], #login-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    margin-bottom: 20px;
+   
+}
+
+#login-box input[type="submit"] {
+    background-color: #ffcc00;
+    color: #333333;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
