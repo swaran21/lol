@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css_styles/style.css">
+    <link rel="stylesheet" type="text/css" href="css_styles/service-address.css">
+    <link rel="stylesheet" type="text/css" href="css_styles/service-phone.css">
+    <link rel="stylesheet" type="text/css" href="css_styles/service-waste.css">
+    <link rel="stylesheet" type="text/css" href="css_styles/login.css">
 </head>
 
 <body>
@@ -26,55 +30,58 @@
     </header>
 
     <div id="main-block">
-        <div id="problem-box">
+        <div id="left-block">
+          <div id="problem-box">
             <h2>Choose the type of waste:</h2>
             <button id="waste-type-button">Select Waste Type</button>
             <div id="waste-type-list" class="hidden">
-                <ul>
-                    <li>Plastic Waste</li>
-                    <li>Wooden Waste</li>
-                    <li>Flower Waste</li>
-                    <li>Food Waste</li>
-                    <li>More</li>
-                </ul>
+              <ul>
+                <li>Plastic Waste</li>
+                <li>Wooden Waste</li>
+                <li>Flower Waste</li>
+                <li>Food Waste</li>
+                <li>More</li>
+              </ul>
             </div>
             <button id="submit-waste-type">Submit</button>
-        </div>
-        <div id="details-phn-add">
-            <div id="phone number">
-            <h2>Phone Number</h2>
-            <p>Please provide your phone number so we can contact you if necessary.</p>
-            <form>
+          </div>
+          <div id="details-phn-add">
+            <div id="phone-number">
+              <h2>Phone Number</h2>
+              <p>Please provide your phone number so we can contact you if necessary.</p>
+              <form>
                 <label for="phone">Phone Number:</label><br>
                 <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
                 <input type="submit" value="Submit">
-            </form>
+              </form>
             </div>
-            
+          </div>
         </div>
-        
-        
-        </div>
-     <div class="main2">
-        <div id="address">
+        <div id="right-block">
+          <div id="address">
             <h3>Address</h3>
             <form>
-                <label for="address-line-1">Address Line 1:</label><br>
-                <input type="text" id="address-line-1" name="address-line-1"><br>
-                <label for="address-line-2">Address Line 2:</label><br>
-                <input type="text" id="address-line-2" name="address-line-2"><br>
-                <label for="city">City:</label><br>
-                <input type="text" id="city" name="city"><br>
-                <label for="state">State:</label><br>
-                <input type="text" id="state" name="state"><br>
-                <label for="zip">Zip Code:</label><br>
-                <input type="text" id="zip" name="zip"><br>
-                <input type="submit" value="Submit">
+              <label for="address-line-1">Address Line 1:</label><br>
+              <input type="text" id="address-line-1" name="address-line-1"><br>
+              <label for="address-line-2">Address Line 2:</label><br>
+              <input type="text" id="address-line-2" name="address-line-2"><br>
+              <label for="city">City:</label><br>
+              <input type="text" id="city" name="city"><br>
+              <label for="state">State:</label><br>
+              <input type="text" id="state" name="state"><br>
+              <label for="zip">Zip Code:</label><br>
+              <input type="text" id="zip" name="zip"><br>
+              <input type="submit" value="Submit">
             </form>
+          </div>
         </div>
-    </div>
+      </div>
+      <div class="go-block">
+        <button class="Go"><a href="go.html">Go</a></button>
+      </div>
+      
         <div id="info-block">
-            <div id="address">
+            <div id="address1">
                 <h3>Address</h3>
                 <p>123 Main St.<br>Anytown, USA 12345</p>
             </div>
